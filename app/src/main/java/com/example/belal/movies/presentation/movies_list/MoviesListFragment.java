@@ -80,6 +80,7 @@ public class MoviesListFragment extends Fragment  implements  MoviesListView , S
     @Override
     public void onAttache() {
 
+
     }
 
     @Override
