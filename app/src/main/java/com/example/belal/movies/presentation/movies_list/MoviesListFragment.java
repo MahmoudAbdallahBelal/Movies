@@ -46,6 +46,7 @@ public class MoviesListFragment extends Fragment  implements  MoviesListView , S
     MoviesListPresenter moviesPresenter;
 
 
+
     private MoviesAdapter moviesAdapter;
 
     @Override
