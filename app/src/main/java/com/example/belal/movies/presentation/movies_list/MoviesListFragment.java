@@ -58,13 +58,14 @@ public class MoviesListFragment extends Fragment  implements  MoviesListView , S
 
         ButterKnife.bind(this, mView);
 
+        // add swipe
         swipeRefreshLayout.setOnRefreshListener(this);
 
        ((DaggerApplication) getActivity().getApplication()).getAppComponent().inject(this);
 
         moviesPresenter.onAttach(this);
 
-       moviesPresenter.returnMoviesList();
+        moviesPresenter.returnMoviesList();
 
 
         return  mView;
